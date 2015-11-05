@@ -17,12 +17,32 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Michroma', sans-serif;
     font-weight: 700;
 }
 
+h1 {
+	color: #6D7493;
+}
+
+h3 {
+	color: #D7D77E;
+}
+
+a {
+	color: #D7D77E;
+}
 .topnav {
     font-size: 14px; 
+    color: #6d7493;
+
+}
+nav {
+	color:#6D7493;
+}
+
+html body .navbar .navbar-default .navbar-nav>li>a {
+	color: #6D7493;
 }
 
 .lead {
@@ -35,7 +55,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/IMG_0001_2.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -68,6 +88,7 @@ h6 {
 
     .intro-message > h1 {
         font-size: 3em;
+        color: #D7D77E;
     }
 
     ul.intro-social-buttons > li {
@@ -105,6 +126,7 @@ h6 {
 
 .section-heading {
     margin-bottom: 30px;
+    color: #6D7493;
 }
 
 .section-heading-spacer {
@@ -116,7 +138,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/IMG_0016_2.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -167,4 +189,13 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+.moosh-logo { 
+	width: 30%;
+	height: auto;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #D7D77E;
 }
